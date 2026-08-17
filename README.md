@@ -22,7 +22,7 @@ Then visit <http://localhost:8000>.
 
 The intended deployment model is GitHub → Cloudflare Pages.
 
-- Repository: `arlyngoodrich/arbor-interactive-studio`
+- Repository: the current GitHub repository
 - Framework preset: **None** / **No framework**
 - Root directory: leave blank (the repository root)
 - Build command: `exit 0`
