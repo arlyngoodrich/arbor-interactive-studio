@@ -1,19 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
   <title id="title">Goodrich Interactive tree mark</title>
-  <desc id="desc">A forest green tree with leaf green branches and network nodes.</desc>
+  <desc id="desc">A full green tree whose branches end in five connected network nodes.</desc>
   <rect width="128" height="128" rx="26" fill="#f2efe7"/>
-  <g fill="none" stroke="#1f3d2e" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="9" d="M64 99V39M64 61 34 34M64 68 94 38M64 79 39 57M64 52 86 22"/>
-    <path stroke-width="7" d="M47 99h34"/>
+
+  <defs>
+    <path id="leaf" d="M0-12C8-8 9 5 0 12C-9 5-8-8 0-12Z"/>
+  </defs>
+
+  <g fill="#2e7d4b">
+    <use href="#leaf" transform="translate(64 14)"/>
+    <use href="#leaf" transform="translate(44 19) rotate(-30) scale(.9)"/>
+    <use href="#leaf" transform="translate(84 20) rotate(31) scale(.9)"/>
+    <use href="#leaf" transform="translate(28 31) rotate(-48) scale(.9)"/>
+    <use href="#leaf" transform="translate(101 33) rotate(49) scale(.9)"/>
+    <use href="#leaf" transform="translate(18 49) rotate(-67) scale(.9)"/>
+    <use href="#leaf" transform="translate(110 51) rotate(68) scale(.9)"/>
+    <use href="#leaf" transform="translate(19 69) rotate(-78) scale(.9)"/>
+    <use href="#leaf" transform="translate(109 71) rotate(79) scale(.9)"/>
+    <use href="#leaf" transform="translate(30 86) rotate(-55) scale(.85)"/>
+    <use href="#leaf" transform="translate(99 87) rotate(56) scale(.85)"/>
   </g>
-  <g fill="#6fa34f" stroke="#1f3d2e" stroke-width="5">
-    <circle cx="34" cy="34" r="8" fill="#f2efe7"/>
-    <circle cx="94" cy="38" r="8" fill="#f2efe7"/>
-    <circle cx="39" cy="57" r="8" fill="#f2efe7"/>
-    <circle cx="86" cy="22" r="8" fill="#f2efe7"/>
-    <ellipse cx="45" cy="22" rx="7" ry="13" transform="rotate(-42 45 22)" stroke="none"/>
-    <ellipse cx="22" cy="47" rx="7" ry="13" transform="rotate(-66 22 47)" stroke="none"/>
-    <ellipse cx="104" cy="57" rx="7" ry="13" transform="rotate(55 104 57)" stroke="none"/>
-    <ellipse cx="74" cy="13" rx="7" ry="13" transform="rotate(22 74 13)" stroke="none"/>
+
+  <g fill="#6fa34f">
+    <use href="#leaf" transform="translate(54 18) rotate(-12) scale(.88)"/>
+    <use href="#leaf" transform="translate(75 18) rotate(14) scale(.88)"/>
+    <use href="#leaf" transform="translate(37 35) rotate(-38) scale(.85)"/>
+    <use href="#leaf" transform="translate(91 36) rotate(39) scale(.85)"/>
+    <use href="#leaf" transform="translate(26 57) rotate(-67) scale(.85)"/>
+    <use href="#leaf" transform="translate(102 59) rotate(68) scale(.85)"/>
+    <use href="#leaf" transform="translate(28 76) rotate(-68) scale(.85)"/>
+    <use href="#leaf" transform="translate(100 78) rotate(68) scale(.85)"/>
+    <use href="#leaf" transform="translate(44 91) rotate(-35) scale(.82)"/>
+    <use href="#leaf" transform="translate(84 92) rotate(36) scale(.82)"/>
   </g>
+
+  <g fill="none" stroke="#1f3d2e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 103V30"/>
+    <path d="M64 58 44 45"/>
+    <path d="M64 75 42 67"/>
+    <path d="M64 66 85 46"/>
+    <path d="M64 84 87 71"/>
+  </g>
+
+  <g fill="#f2efe7" stroke="#1f3d2e" stroke-width="5">
+    <circle cx="64" cy="29" r="8"/>
+    <circle cx="43" cy="44" r="8"/>
+    <circle cx="86" cy="45" r="8"/>
+    <circle cx="41" cy="67" r="8"/>
+    <circle cx="88" cy="71" r="8"/>
+  </g>
+
+  <path d="M55 102c4-4 14-4 18 0l8 6H47l8-6Z" fill="#1f3d2e"/>
+  <path d="M34 110c17-7 43-7 60 0-19-3-41-3-60 0Z" fill="#1f3d2e"/>
 </svg>
