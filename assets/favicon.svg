@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Arbor tree mark</title>
+  <title id="title">Goodrich Interactive tree mark</title>
   <desc id="desc">A forest green tree with leaf green branches and network nodes.</desc>
   <rect width="128" height="128" rx="26" fill="#f2efe7"/>
   <g fill="none" stroke="#1f3d2e" stroke-linecap="round" stroke-linejoin="round">

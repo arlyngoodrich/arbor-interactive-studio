@@ -1,7 +1,7 @@
-# Arbor Interactive Studio
+# Goodrich Interactive
 
-The V1 public home for Arbor Interactive Studio: a small, independent studio
-building games, useful software, and the occasional weird little idea.
+The V1 public home for Goodrich Interactive: a small, independent studio
+building games, useful software, tools, and occasional weird little ideas.
 
 This is intentionally a plain static site. It is built from one HTML page, one
 stylesheet, and a small identity asset. There is no framework, package manager,
@@ -28,7 +28,7 @@ The intended deployment model is GitHub → Cloudflare Pages.
 - Build command: `exit 0`
 - Build output directory: `.` (the repository root)
 - Environment variables: none
-- Custom domain: `arborinteractivestudio.com`
+- Custom domain: `goodrichinteractive.com`
 
 Cloudflare DNS, nameservers, and custom-domain configuration are intentionally
 outside this repository and are not managed here.
@@ -37,7 +37,8 @@ outside this repository and are not managed here.
 
 - TinyConnect links to its verified public GitHub repository and `v0.1.2`
   release.
-- No Arbor itch.io link is included until a public destination is verified.
-- `assets/brand-sheet.jpg` is the supplied V1 brand reference. The production
-  page uses the small SVG tree mark derived from that accepted identity so the
-  site does not ship the full reference sheet as a logo asset.
+- No Goodrich Interactive itch.io link is included until a public destination
+  is verified.
+- `assets/brand-sheet.jpg` is the supplied V1 brand reference. It is retained
+  as a provenance reference and is not rendered as the production logo; the
+  page uses the small SVG tree mark derived from that accepted identity.
